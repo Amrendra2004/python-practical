@@ -1,2 +1,4 @@
-My name is Amrendra Dalai
-hello world
+Simply put, cloud computing is the delivery of computing services—
+including servers, storage, databases,
+networking, software, analytics,
+and intelligence
