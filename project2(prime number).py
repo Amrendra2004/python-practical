@@ -1,15 +1,11 @@
-num=int(input("enter a number"))
-list1=[]
-if (num%2)!=0 or i==2:
-   print(num," is a prime number")
-   for i in range(2, num):
-       if (i%2)!=0 or i==2:
-           list1.append(i)
-           
+num = int(input("enter your number:-")
+a= False
+if num > 1:
+     for i in range(2, num):
+        if (num % i) == 0:
+            a= True       
+            break
+if a:
+    print(num, "is not a prime number")
 else:
-    print("it is not a prime number")   
-
-if len(list1)==0:
-    print("no prime number less then your")
-else:
-    print(list1,"are all prime less then your")
+    print(num, "is a prime number")
