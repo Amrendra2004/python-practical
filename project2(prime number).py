@@ -1,6 +1,6 @@
 num=int(input("enter a number"))
 list1=[]
-if (num%2)!=0:
+if (num%2)!=0 or i==2:
    print(num," is a prime number")
    for i in range(2, num):
        if (i%2)!=0 or i==2:
