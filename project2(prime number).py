@@ -1,4 +1,4 @@
-num = int(input("enter your number:-")
+num = int(input("enter your number:-"))
 a= False
 if num > 1:
      for i in range(2, num):
