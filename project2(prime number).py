@@ -12,11 +12,11 @@ else:
 list1=[]    
 
 print("The Prime Numbers less then your are: ")
-for number in range(0, num + 1):
-    if number > 1:
-        for i in range(2, number):
-            if (number % i) == 0:
+for j in range(0, num + 1):
+    if j > 1:
+        for i in range(2, j):
+            if (j % i) == 0:
                 break
         else:
-            list1.append(number)
+            list1.append(j)
 print(list1)
