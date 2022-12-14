@@ -10,8 +10,11 @@ if ch=='a' or ch=='A':
       print(tp1)
 
 if ch=='b' or ch=='B':
-    tp2=(2,4,6,8,10)
-    print(tp2)
+    for i in t1:
+        if i%2==0:
+            s.append(i)
+    s=tuple(s)
+    print(s)
         
 if ch=='c' or ch=='C':
     t3=t1+t2
