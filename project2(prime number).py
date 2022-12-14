@@ -9,3 +9,14 @@ if a:
     print(num, "is not a prime number")
 else:
     print(num, "is a prime number")
+list1=[]    
+
+print("The Prime Numbers less then your are: ")
+for number in range(0, num + 1):
+    if number > 1:
+        for i in range(2, number):
+            if (number % i) == 0:
+                break
+        else:
+            list1.append(number)
+print(list1)
