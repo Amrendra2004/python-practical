@@ -4,6 +4,7 @@ def fname(file):
     num_words = 0
     num_lines = 0
     num_words = 0
+    num_charc = 0
     with open(file, 'r') as f:
         for i in f:
             i = i.strip(os.linesep)
