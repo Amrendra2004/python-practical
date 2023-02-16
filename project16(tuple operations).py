@@ -1,5 +1,6 @@
 t1=(1,2,3,4,5,6,7,8,9,10)
 t2=(11,13,15)
+s=[]
 print("what you want to do with this tuple\n a)split it in half.\n b)print tuple of even numbers.\n c)Concatenate a new tuple.\n d) max. and min. value in tuple. \n e) Exit")
 ch=str(input("enter your choice from (a,b,c,d):- "))
 if ch=='a' or ch=='A':
